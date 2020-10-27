@@ -1,13 +1,14 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-// import { HashRouter,  Route, Switch, Link, NavLink} from 'react-router-dom';
+import data from './data';
 
 const Home = () => {
-
+    const start = data.start;
     return (
         <div>
-            kle kle
-            <Link to="/quiz"> <button> take the quiz!</button> </Link>
+            <p className="start-premiere">{start.date}</p>
+            <p className="text">{start.inv}</p>
+            <Link to="/quiz"> <button className="buttons"> {start.btn} </button> </Link>
         </div>
     )
 }

@@ -1,10 +1,11 @@
 import React from 'react';
+import quiz from './data';
 
-const Question =() => {
+const Questions =() => {
 
     return (
         <div>question question question</div>
     )
 }
 
-export default Question;
+export default Questions;

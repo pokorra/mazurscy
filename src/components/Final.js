@@ -3,7 +3,7 @@ import React from 'react';
 const Final =() => {
 
     return (
-        <div>final text</div>
+        <div>gratki z okazji końca gry</div>
     )
 }
 
