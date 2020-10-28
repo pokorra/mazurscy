@@ -2,6 +2,10 @@ body {
     background-color: grey;
 }
 
+.hidden {
+    display: none;
+}
+
 .quiz-buttons {
     display: flex;
     flex-direction: column;
