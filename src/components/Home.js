@@ -6,9 +6,9 @@ const Home = () => {
     const start = data.start;
     return (
         <div>
-            <p className="start-premiere">{start.date}</p>
-            <p className="text">{start.inv}</p>
-            <Link to="/quiz"> <button className="buttons"> {start.btn} </button> </Link>
+            <p className='start-premiere'>{start.date}</p>
+            <p className='text'>{start.inv}</p>
+            <Link to='/quiz'> <button className='buttons'> {start.btn} </button> </Link>
         </div>
     )
 }
