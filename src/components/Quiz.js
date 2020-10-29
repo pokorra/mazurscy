@@ -4,13 +4,13 @@ import Question from './Question';
 
 
 
-const Quiz = ({score, setScore, number, setNumber}) => {
+const Quiz = ({score, setScore, number, setNumber, isFinished, setFinished}) => {
 // const Quiz = () => {
         // const updateScore = (point) => {
         //     setScore(prev => prev + point);
         // }
 
-    const [isFinished, setFinished] = useState(false);
+    
     // const [score, setScore] = useState(0);
     return (
         <>

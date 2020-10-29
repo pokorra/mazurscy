@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import data from './data';
 
-const Question =({score, setScore, setFinished, number, setNumber}) => {
+const Question =({score, setScore, isFinished, setFinished, number, setNumber}) => {
     // const Question = ({setFinished}) => {
         // const [number, setNumber] = useState(0);
         // const [score, setScore] = useState(0);
@@ -23,24 +23,23 @@ const Question =({score, setScore, setFinished, number, setNumber}) => {
             if (number + 1 < length && e.target.value === quest.goodOne) {
               setNumber((prev) => prev + 1);
               setScore((prev) => prev + 1);
-                // updateScore(2);
               console.log("dobrze", score);
             } else if (number + 1 < length) {
               setNumber((prev) => prev + 1);
               console.log("źle", score);
             } else if (number < length && e.target.value === quest.goodOne) {
               setScore((prev) => prev + 1);
-            //   updateScore(2);
               endOfGame();
+              console.log(setFinished);
               console.log("koniec gry!", score);
             } else {
               endOfGame();
+              console.log(setFinished);
             }
           };
        
         return (
-            
-            <div className='quiz'>
+            <div className={`quiz ${isFinished ? 'hidden' : ''}`}>
                 <div className='quiz-number'>{quest.num}</div>
                 <div className='quiz-question'>{quest.question}</div>
                 <ul className='quiz-buttons'>
