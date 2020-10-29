@@ -10,13 +10,13 @@ import NotFound from './components/NotFound';
 function App() {
 
   const [score, setScore] = useState(0);
-
+  const [number, setNumber] = useState(0);
   return (
     // <div className="App">
       <HashRouter>
         <Switch>
           <Route exact path ='/' component={Home} />
-          <Route path='/quiz' component={()=> <Quiz setScore={setScore} score={score} />} />
+          <Route path='/quiz' component={()=> <Quiz setScore={setScore} score={score} number={number} setNumber={setNumber} />} />
           <Route path='/final' component={()=> <Final setScore={setScore} score={score}/>} />
           <Route component={NotFound} />
         </Switch>
