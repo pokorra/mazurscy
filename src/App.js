@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { HashRouter,  Route, Switch} from 'react-router-dom';
-import './scss/main.scss';
+// import './scss/main.scss';
 import Home from './components/Home';
 import Quiz from './components/Quiz';
 import Final from './components/Final';
