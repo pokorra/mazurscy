@@ -21,19 +21,17 @@ const Home = () => {
     return (
         <div className='container'>
             <section className='main-content'>
-                <img src={wilga} className='wilga-logo'></img>
-                <img src={maz} className='book-title'></img>
-                <p className='start-premiere'>{start.date}</p>
+                <img src={wilga} alt='logo' className='wilga-logo'></img>
+                <img src={maz} alt='book-title' className='book-title'></img>
+                <p className='start-premiere text'>{start.date}</p>
                 <p className='text'>{start.inv}</p>
                 <Link to='/quiz'> <button className='buttons'> {start.btn} </button> </Link>
             </section>
-            <img src={topLeft} className='side-pic1'></img>
-            {/* <div className='side-pic1'></div> */}
-            <img src={topRight} className='side-pic2'></img>
-            <img src={bottomLeft} className='side-pic3'></img>
-            <img src={bottomRight} className='side-pic4'></img>
-        </div>
-        
+            <img src={topLeft} alt='girl' className='side-pic1'></img>
+            <img src={topRight} alt='treasure' className='side-pic2'></img>
+            <img src={bottomLeft} alt='bird' className='side-pic3'></img>
+            <img src={bottomRight} alt='granny' className='side-pic4'></img>
+        </div>    
     )
 }
 
