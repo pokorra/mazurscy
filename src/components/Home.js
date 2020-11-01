@@ -2,17 +2,10 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import data from './data';
 import '../scss/home/main_home.scss';
-import top_left_s from '../scss/img/top_left_s.png';
-import top_right_s from '../scss/img/top_right_s.png';
-import btm_left_s from '../scss/img/btm_left_s.png';
-import btm_right_s from '../scss/img/btm_right_s.png';
 import mazurscy_logo from '../scss/img/mazurscy_logo.svg';
 import wilga_logo from '../scss/img/wilga_logo.svg';
 
-const topLeft = top_left_s;
-const topRight = top_right_s ;
-const bottomLeft = btm_left_s;
-const bottomRight = btm_right_s;
+
 const wilga = wilga_logo;
 const maz = mazurscy_logo;
 
@@ -27,10 +20,10 @@ const Home = () => {
                 <p className='text'>{start.inv}</p>
                 <Link to='/quiz'> <button className='buttons'> {start.btn} </button> </Link>
             </section>
-            <img src={topLeft} alt='girl' className='side-pic1'></img>
-            <img src={topRight} alt='treasure' className='side-pic2'></img>
-            <img src={bottomLeft} alt='bird' className='side-pic3'></img>
-            <img src={bottomRight} alt='granny' className='side-pic4'></img>
+            <div className='side-pic side-pic1'> </div>
+            <div className='side-pic side-pic2'> </div>
+            <div className='side-pic side-pic3'> </div>
+            <div className='side-pic side-pic4'> </div>
         </div>    
     )
 }
