@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 $font: 'Roboto', sans-serif;
 
+// defining color
+$lila: rgb(112, 34, 131);
+
 //basic class settings
 * {
     padding: 5px;
@@ -16,3 +19,4 @@ body {
 .hidden {
     display: none;
 }
+
