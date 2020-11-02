@@ -93,3 +93,10 @@
         width: auto;
     }
 }
+
+@media only screen and (min-width: 1700px) {
+    .text {
+        font-size: 25px;
+        line-height: 35px;
+    }
+}
