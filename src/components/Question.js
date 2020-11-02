@@ -1,5 +1,9 @@
 import React from 'react';
 import data from './data';
+import mazurscy_logo from '../scss/img/mazurscy_logo.svg';
+
+
+const maz = mazurscy_logo;
 
 const Question =({score, setScore, isFinished, setFinished, number, setNumber}) => {   
         const quiz = data.quiz;
@@ -24,22 +28,38 @@ const Question =({score, setScore, isFinished, setFinished, number, setNumber}) 
               endOfGame();
             }
           };
+          let i;
+          for (i = 0; i < quest.answers.length; i++) {
+            if ( i === 0) {
+              i = "a";
+            } else if (i === 1) {
+              i = "b";
+            } else if (i === 2) {
+              i = "c";
+            }
+          }
        
         return (
             <div className={`quiz ${isFinished ? 'hidden' : ''}`}>
-                <div className='quiz-number'>{quest.num}</div>
-                <div className='quiz-question'>{quest.question}</div>
+                <div className='quiz-number'>
+                  <p> {quest.num} </p>
+                </div>
+                <div className='quiz-question'>
+                  <p>{quest.question} </p>
+                </div>
                 <ul className='quiz-buttons'>
                     {quest.answers.map(item => (
-                        <li key={item}> 
-                            <button value={item} onClick={next} > 
-                                {item} 
+                         
+                            <button value={item.ans} onClick={next} > 
+                                  <li key={item.ans}> <span> {item.num}</span> {item.ans} </li>
                             </button> 
-                        </li>
+                        
                     ))}
                 
                 </ul>
-                <div>wynik: {score}</div>
+                <div className='book-logo'>
+                <img src={maz} alt='book-title' className='book-title'></img>
+                </div>
     
              </div>
         )
