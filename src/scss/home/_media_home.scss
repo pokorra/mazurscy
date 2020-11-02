@@ -2,6 +2,7 @@
     body {
         background-image: url(../img/bckg_medium.png);
     }
+    //background
     .side-pic1 {
         height: 385px;
         width: 160px;
@@ -44,5 +45,51 @@
     .buttons {
         padding: 20px 30px;
         font-size: 17px;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    body {
+        background-image: url(../img/bckg_large.png);
+    }
+    //background
+    .container {
+        width: 1100px;
+        margin: 0 auto;
+    }
+    .side-pic1 {
+        height: 385px;
+        width: 182px;
+        background-image: url(../img/top_left_l.png);
+    }
+    .side-pic2 {
+        height: 400px;
+        width: 365px;
+        background-image: url(../img/top_right_l.png);
+    }
+    .side-pic3 {
+        height: 230px;
+        width: 480px;
+        background-image: url(../img/btm_left_l.png);
+    }
+    .side-pic4 {
+        height: 305px;
+        width: 290px;
+        background-image: url(../img/btm_right_l.png);
+    }
+    //
+    .main-content {
+        margin: 5vh 25% 10vh;
+        width: 50%;
+    }
+    .wilga-logo {
+        width: 95px;
+    }
+    .book-title {
+        width: 300px;
+    }
+    .text {
+        line-height: 25px;
+        width: auto;
     }
 }
