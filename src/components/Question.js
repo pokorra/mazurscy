@@ -1,15 +1,19 @@
-import React from 'react';
+import React, {useState} from 'react';
 import data from './data';
 import mazurscy_logo from '../scss/img/mazurscy_logo.svg';
 
 
 const maz = mazurscy_logo;
 
-const Question =({score, setScore, isFinished, setFinished, number, setNumber}) => {   
+const Question =({setScore, isFinished, setFinished, number, setNumber}) => {   
         const quiz = data.quiz;
         const quest = quiz[number];
         const length = quiz.length;
-    
+
+        // const [isRight, setRight] = useState(false);
+        // const [isHover, setHover] = useState(false);
+        // const [isNormal, setNormal] = useState(false);
+
         const endOfGame = () => {
             setFinished(true);
             setNumber(0);
@@ -28,17 +32,23 @@ const Question =({score, setScore, isFinished, setFinished, number, setNumber}) 
               endOfGame();
             }
           };
-          let i;
-          for (i = 0; i < quest.answers.length; i++) {
-            if ( i === 0) {
-              i = "a";
-            } else if (i === 1) {
-              i = "b";
-            } else if (i === 2) {
-              i = "c";
-            }
-          }
-       
+          
+          // const check = (e) => {
+          //   if (e.target.value === quest.goodOne) {
+          //     setRight(true);
+          //   } else {
+          //     setRight(false);
+          //   }
+          // }
+        
+        // const hover = (e) => {
+        //   isHover ? setHover(false) : setHover(true);
+        //   console.log('hover');
+        // }
+        // const normal = (e) => {
+        //   // isNormal ? setNormal(false) : setNormal(true);
+        //   setHover(false);
+        // }
         return (
             <div className={`quiz ${isFinished ? 'hidden' : ''}`}>
                 <div className='quiz-number'>
@@ -49,16 +59,21 @@ const Question =({score, setScore, isFinished, setFinished, number, setNumber}) 
                 </div>
                 <ul className='quiz-buttons'>
                     {quest.answers.map(item => (
-                         
-                            <button value={item.ans} onClick={next} > 
-                                  <li key={item.ans}> <span> {item.num}</span> {item.ans} </li>
+                        <li key={item.ans}> 
+                            <button className='quiz-btn' value={item.ans} 
+                            // onMouseOver={hover} 
+                            // onMouseDown={check} 
+                            onMouseUp={next}                             
+                              // className={`quiz-btn ${isRight ? 'right' : ''} ${isHover ? 'hov' : ''}`}
+                              > 
+                                   <span> {item.num}</span> {item.ans} 
                             </button> 
-                        
+                      </li>  
                     ))}
                 
                 </ul>
                 <div className='book-logo'>
-                <img src={maz} alt='book-title' className='book-title'></img>
+                  <img src={maz} alt='book-title' className='img-title'></img>
                 </div>
     
              </div>
