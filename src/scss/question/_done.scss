@@ -1,0 +1,77 @@
+.done {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: isdone .7s ease-in forwards;
+}
+.appear {
+
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    p, .butt {
+        font-size: 20px;
+        text-align: center;
+    }
+    .butt {
+        @include basic-btn;
+        font-weight: 600;
+        background-color: $green;
+    }
+}
+
+
+.ornament {
+    background-color: $green;
+    position: absolute;
+    height: 40px;
+}
+.or1 {
+    top: 8%;
+    right: 0;
+    width: 60%;
+    border-radius: 25px 0 0 25px;
+    // animation: ornaments 3s ease-in-out infinite;
+}
+.or2 {
+    top: 25%;
+    left: 0;
+    width: 40%;
+    border-radius: 0 25px 25px 0;
+    // animation: ornaments 5s ease-out infinite;
+}
+.or3 {
+    bottom: 17%;
+    left: 0;
+    width: 75%;
+    border-radius: 0 25px 25px 0;
+    // animation: ornaments 4s infinite;
+}
+
+@keyframes isdone {
+    0% { opacity: 0; }
+    100% { opacity: 1;}
+}
+
+// @keyframes ornaments {
+//     0% { width: 40%; }
+//     50% {width: 65%; }
+//     100% {width: 40%;}
+// }
+
+@media only screen and (min-width: 750px ) {
+    .appear {
+        p, .butt {
+        font-size: 25px;
+        }
+    }
+    .ornament {
+        height: 55px;
+    }  
+}

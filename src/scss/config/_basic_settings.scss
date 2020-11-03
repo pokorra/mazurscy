@@ -21,3 +21,12 @@ body {
     display: none;
 }
 
+//mixins
+@mixin basic-btn {
+    padding: 15px 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}

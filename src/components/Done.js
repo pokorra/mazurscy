@@ -4,10 +4,14 @@ import {Link} from 'react-router-dom';
 const Done = ({isFinished}) => {
 
     return (
-        <div className={`done ${isFinished ? '' : 'hidden'}`}>
-            CONGRATS YOU HAVE FINISHED YOUR QUIZ CLICK HERE TO CHECK YOUR score
-
-            <Link to='/final'> <button className='buttons'> sprawdź wynik </button> </Link>
+        <div className={`${isFinished ? 'done' : 'hidden'}`}>
+            <div className='ornament or1'></div>
+            <div className='ornament or2'></div>
+            <div className='appear'>
+                <p> Gratulacje, udało Ci się ukończyć quiz! </p>
+                <Link to='/final'> <button className='butt'> Sprawdź swój wynik </button> </Link>
+            </div>
+            <div className='ornament or3'></div>
         </div>
     )
 }

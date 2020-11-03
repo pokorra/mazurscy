@@ -48,6 +48,7 @@ ul.quiz-buttons {
     padding: 5px 15px;
     border-radius: 15px;
     transition: .5s;
+    animation: newbutt .7s ease-in forwards;
     cursor: pointer;
     &:hover {
         background-color: #49155C;
@@ -71,4 +72,9 @@ ul.quiz-buttons {
 
 .hov {
     background-color: #49155C;
+}
+
+@keyframes newbutt {
+    0% { opacity: 0; }
+    100% { opacity: 1}
 }
