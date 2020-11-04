@@ -30,12 +30,45 @@
 
 
 @media only screen and (min-width: 1100px) {
-
+    .final {
+        background-image: url(../img/ftl_l.png);
+    }
+    .final-text-elements {
+        margin: 2vh;        
+        width: 450px;
+    }
+    .final-text {
+        width: inherit;
+    }
+    .final-title {
+        width: 305px;
+    }
+    .pic-loose {
+        background-image: url(../img/ftl_pic_l.png);
+        width: 458px;
+        height: 397px;
+    }
+    .pic-win {
+        background-image: url(../img/ftw_pic_m.png);
+        width: 869px;
+        height: 418px;        
+    }
 }
 
 
 @media only screen and (min-width: 1700px) {
-
+    .final-text-elements {
+        margin: 5vh;        
+        width: 50vw;
+    }
+    .final-title {
+        width: 35vh;
+    }
+    .final-score,
+    .final-text,
+    .final-btn {
+        font-size: 22px;
+    }
 }
 
 
