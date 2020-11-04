@@ -23,21 +23,26 @@ const Final =({score, setScore, setFinished}) => {
 
     return (
         <div className='final-page'>
-            { score < 18 ? (
+            { score > 18 ? (
                 <div className='final for-the-loose'> 
-                    <img src={maz} alt='book-title' className='final-title'></img>
-                    <p className='final-score'>Twój wynik to... {score} / 20!</p>
-                    <p className='final-text'>{finish[0].display}</p>
+                    <div className='final-text-elements'> 
+                        <img src={maz} alt='book-title' className='final-title'></img>
+                        <p className='final-score'>Twój wynik to... {score} / 20!</p>
+                        <p className='final-text'>{finish[0].display}</p>
                     <Link to='/quiz'> <button className='final-btn' onClick={resetQuiz}> {finish[0].btn} </button> </Link>
+                    </div>
                     <div className='bottom-pic pic-loose'> </div>
                 </div>
             ) : (
                 <div className='final for-the-win'>
-                    <img src={maz} alt='book-title' className='final-title'></img>
-                    <p className='final-score'>Twój wynik to... {score} / 20!</p>
-                    <p className='final-text'>{finish[1].display}</p>
-                    <button onClick={showText} className='final-btn'> {finish[1].btn} </button>
-                    <Chapter/>
+                    <div className={`${isChapter ? 'hidden' : 'final-text-elements'}`}>
+                        <img src={maz} alt='book-title' className='final-title'></img>
+                        <p className='final-score'>Twój wynik to... {score} / 20!</p>
+                        <p className='final-text'>{finish[1].display}</p>
+                        <button onClick={showText} className='final-btn'> {finish[1].btn} </button>
+                        
+                    </div>
+                    <Chapter isChapter={isChapter}/>
                     <div className='bottom-pic pic-win'> </div>
                 </div>
             )}

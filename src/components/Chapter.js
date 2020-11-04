@@ -1,10 +1,11 @@
 import React from 'react';
 import book from './book';
 
-const Chapter = () => {
+const Chapter = ({isChapter}) => {
 
     return (
-        <div>
+        <div className={`${!isChapter ? 'hidden' : 'chapter'}`}>
+            <button className='back-btn'> powrót </button>
             {book.map(item => (
                 <p key={item.num} className={`paragraph par${item.num}`}> {item.content} </p>
             ))}
