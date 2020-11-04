@@ -6,9 +6,10 @@
     width: 100vw;
     height: 100vh;
     position: relative;
-}
-.for-the-loose {
     background-image: url(../img/ftl_s.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .bottom-pic {
@@ -16,8 +17,15 @@
     bottom: 0;
     background-size: cover;
 }
-.pic-loose {
+.pic-win {
     background-image: url(../img/ftl_pic_s.png);
     width: 270px;
     height: 215px;
+}
+.pic-loose {
+    background-image: url(../img/ftw_pic_s.png);
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    align-self: center;
 }
