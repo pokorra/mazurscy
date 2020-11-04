@@ -23,7 +23,7 @@ const Final =({score, setScore, setFinished}) => {
 
     return (
         <div className='final-page'>
-            { score > 18 ? (
+            { score < 18 ? (
                 <div className='final for-the-loose'> 
                     <div className='final-text-elements'> 
                         <img src={maz} alt='book-title' className='final-title'></img>
