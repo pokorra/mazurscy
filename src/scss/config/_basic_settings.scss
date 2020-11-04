@@ -1,5 +1,6 @@
 //basic general settings
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,300&display=swap');
+
 $font: 'Roboto', sans-serif;
 
 // defining color
@@ -10,7 +11,8 @@ $green: rgb(35, 166, 56);
 * {
     padding: 5px;
     margin: 5px;
-    transform: .5s;
+    transition: .4s;
+    box-sizing: border-box;
 }
 
 body {

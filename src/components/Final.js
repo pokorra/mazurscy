@@ -23,7 +23,7 @@ const Final =({score, setScore, setFinished}) => {
 
     return (
         <div className='final-page'>
-            { score < 18 ? (
+            { score < 6 ? (
                 <div className='final for-the-loose'> 
                     <div className='final-text-elements'> 
                         <img src={maz} alt='book-title' className='final-title'></img>
@@ -37,7 +37,7 @@ const Final =({score, setScore, setFinished}) => {
                 <div className='final for-the-win'>
                     <div className={`${isChapter ? 'hidden' : 'final-text-elements'}`}>
                         <img src={maz} alt='book-title' className='final-title'></img>
-                        <p className='final-score'>Twój wynik to... {score} / 20!</p>
+                        <p className='final-score'>Twój wynik to... {score} / 15!</p>
                         <p className='final-text'>{finish[1].display}</p>
                         <button onClick={showText} className='final-btn'> {finish[1].btn} </button>
                         
