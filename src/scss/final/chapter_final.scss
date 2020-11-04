@@ -1,15 +1,13 @@
 .chapter {
     display: flex;
     flex-direction: column;
-    // border: 2px solid grey;
     margin-top: 10vh;
-    // padding-top: 5vh;
     width: 70vw;
     height: 70vh;
     overflow: auto;
     z-index: 5;
     background-color: rgba(245, 245, 245, .5);
-    // position: absolute
+    animation: chapta .7s ease-in forwards;
 }
 
 .back-btn {
@@ -24,6 +22,7 @@
 
 .paragraph {
     padding-top: 1vh;
+    padding-right: 2vw;
     font-size: 15px;
     line-height: 20px;
 }
@@ -35,4 +34,9 @@
 .par2 {
     // font-style: italic;
     font-size: 16px;
+}
+
+@keyframes chapta {
+    0% { opacity: 0; }
+    100% { opacity: 1}
 }
