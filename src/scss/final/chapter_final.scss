@@ -6,7 +6,7 @@
     height: 70vh;
     overflow: auto;
     z-index: 5;
-    background-color: rgba(245, 245, 245, .5);
+    background-color: rgba(245, 245, 245, .7);
     animation: chapta .7s ease-in forwards;
 }
 
@@ -16,7 +16,7 @@
     left: 3vw;
     @include basic-btn;
     background: $lila;
-    letter-spacing: 1px;
+    letter-spacing: 1.2px;
     // margin-bottom: 5px;
 }
 
@@ -25,6 +25,9 @@
     padding-right: 2vw;
     font-size: 15px;
     line-height: 20px;
+}
+.paragraph:last-child {
+    padding-bottom: 2vh;
 }
 .par1 {
     font-weight: bold;
