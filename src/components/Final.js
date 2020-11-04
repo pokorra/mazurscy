@@ -42,7 +42,7 @@ const Final =({score, setScore, setFinished}) => {
                         <button onClick={showText} className='final-btn'> {finish[1].btn} </button>
                         
                     </div>
-                    <Chapter isChapter={isChapter} setChapter={setChapter}/>
+                    <Chapter isChapter={isChapter} setChapter={setChapter} setScore={setScore} setFinished={setFinished}/>
                     <div className='bottom-pic pic-win'> </div>
                 </div>
             )}
