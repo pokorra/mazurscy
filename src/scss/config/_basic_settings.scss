@@ -1,13 +1,13 @@
-//basic general settings
+//basic general settings - font
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,300&display=swap');
 
 $font: 'Roboto', sans-serif;
 
-// defining color
+// defining colors
 $lila: rgb(112, 34, 131);
 $green: rgb(35, 166, 56);
 
-//basic class settings
+//basic settings
 * {
     padding: 5px;
     margin: 5px;

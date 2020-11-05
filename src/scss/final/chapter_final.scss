@@ -17,7 +17,6 @@
     @include basic-btn;
     background: $lila;
     letter-spacing: 1.2px;
-    // margin-bottom: 5px;
 }
 
 .paragraph {
@@ -35,9 +34,8 @@
     padding: 15px 0 1vh;
 }
 .par2 {
-    // font-style: italic;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: bold;
     font-style: italic;
     padding: 2vh 0;
 }

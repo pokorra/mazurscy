@@ -16,7 +16,7 @@ const Home = () => {
             <section className='main-content'>
                 <img src={wilga} alt='logo' className='wilga-logo'></img>
                 <img src={maz} alt='book-title' className='book-title'></img>
-                <p className='start-premiere text'>{start.date}</p>
+                <p className='text start-premiere'>{start.date}</p>
                 <p className='text'>{start.inv}</p>
                 <Link to='/quiz'> <button className='buttons'> {start.btn} </button> </Link>
             </section>

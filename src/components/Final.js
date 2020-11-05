@@ -23,11 +23,11 @@ const Final =({score, setScore, setFinished}) => {
 
     return (
         <div className='final-page'>
-            { score < 6 ? (
+            { score < 3 ? (
                 <div className='final for-the-loose'> 
                     <div className='final-text-elements'> 
                         <img src={maz} alt='book-title' className='final-title'></img>
-                        <p className='final-score'>Twój wynik to... {score} / 20!</p>
+                        <p className='final-score'>Twój wynik to... {score} / 10!</p>
                         <p className='final-text'>{finish[0].display}</p>
                     <Link to='/quiz'> <button className='final-btn' onClick={resetQuiz}> {finish[0].btn} </button> </Link>
                     </div>
