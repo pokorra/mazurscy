@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mazurscy/static/css/main.90453162.chunk.css",
-    "main.js": "/mazurscy/static/js/main.ef3c03cb.chunk.js",
-    "main.js.map": "/mazurscy/static/js/main.ef3c03cb.chunk.js.map",
+    "main.js": "/mazurscy/static/js/main.a685f4e1.chunk.js",
+    "main.js.map": "/mazurscy/static/js/main.a685f4e1.chunk.js.map",
     "runtime-main.js": "/mazurscy/static/js/runtime-main.133ee9ac.js",
     "runtime-main.js.map": "/mazurscy/static/js/runtime-main.133ee9ac.js.map",
     "static/js/2.442f0382.chunk.js": "/mazurscy/static/js/2.442f0382.chunk.js",
     "static/js/2.442f0382.chunk.js.map": "/mazurscy/static/js/2.442f0382.chunk.js.map",
     "index.html": "/mazurscy/index.html",
-    "precache-manifest.9ebc16bc1416709c2f41f05646c62100.js": "/mazurscy/precache-manifest.9ebc16bc1416709c2f41f05646c62100.js",
+    "precache-manifest.5f90d6972c19adaebb96b9ba19725630.js": "/mazurscy/precache-manifest.5f90d6972c19adaebb96b9ba19725630.js",
     "service-worker.js": "/mazurscy/service-worker.js",
     "static/css/main.90453162.chunk.css.map": "/mazurscy/static/css/main.90453162.chunk.css.map",
     "static/js/2.442f0382.chunk.js.LICENSE.txt": "/mazurscy/static/js/2.442f0382.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.133ee9ac.js",
     "static/js/2.442f0382.chunk.js",
     "static/css/main.90453162.chunk.css",
-    "static/js/main.ef3c03cb.chunk.js"
+    "static/js/main.a685f4e1.chunk.js"
   ]
 }
