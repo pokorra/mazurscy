@@ -1,7 +1,7 @@
 .chapter {
     display: flex;
     flex-direction: column;
-    margin-top: 10vh;
+    margin-top: 12vh;
     width: 70vw;
     height: 70vh;
     overflow: auto;
@@ -19,6 +19,51 @@
     letter-spacing: 1.2px;
 }
 
+//link to the empik site
+.buy-btn {
+    position: fixed;
+    top: 2vh;
+    right: 2vw;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    // @include basic-btn;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.buy-btn::before {
+    content: attr(data-hover);
+    transform: translate(150%, 0);
+    opacity: 0;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+    color: white;
+    transition: 0.4s;
+    position: absolute;
+}
+
+.buy-btn:hover::before {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.buy-btn span {
+    color: white;
+    font-size: 25px;
+    transform: translate(0,0);
+    transition: 0.2s;
+}
+.buy-btn:hover span {
+    opacity: 0;
+    transform: translate(-150%,0);
+}
+
+//chapter text
 .paragraph {
     padding-top: 1vh;
     padding-right: 2vw;
