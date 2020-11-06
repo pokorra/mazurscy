@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d28cd81b57ae4e31b75cbe4c9f786f2f",
+    "revision": "c9f0f230b17ad3b28374a004a77dc0c3",
     "url": "/mazurscy/index.html"
   },
   {
-    "revision": "0f7a6171fb74d900bf6b",
-    "url": "/mazurscy/static/css/main.90453162.chunk.css"
+    "revision": "dc73ad0eb157db7f328c",
+    "url": "/mazurscy/static/css/main.64b2d201.chunk.css"
   },
   {
-    "revision": "9ec1f009e4a62d47369a",
-    "url": "/mazurscy/static/js/2.442f0382.chunk.js"
+    "revision": "9b959dbbb4845ecb49b2",
+    "url": "/mazurscy/static/js/2.e7526ef6.chunk.js"
   },
   {
-    "revision": "3c73c585782ac05880c0f89bcfdbba5a",
-    "url": "/mazurscy/static/js/2.442f0382.chunk.js.LICENSE.txt"
+    "revision": "c937c4fa47a9982fa1ac3c3838ba40ff",
+    "url": "/mazurscy/static/js/2.e7526ef6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0f7a6171fb74d900bf6b",
-    "url": "/mazurscy/static/js/main.a685f4e1.chunk.js"
+    "revision": "dc73ad0eb157db7f328c",
+    "url": "/mazurscy/static/js/main.1c5fa540.chunk.js"
   },
   {
     "revision": "01711683c7efc1f6f5bc",
