@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c9f0f230b17ad3b28374a004a77dc0c3",
+    "revision": "5038b9c96f2a236e4574bedf01562828",
     "url": "/mazurscy/index.html"
   },
   {
-    "revision": "dc73ad0eb157db7f328c",
-    "url": "/mazurscy/static/css/main.64b2d201.chunk.css"
+    "revision": "f220a8a21acb4fbc723a",
+    "url": "/mazurscy/static/css/main.953dfc54.chunk.css"
   },
   {
     "revision": "9b959dbbb4845ecb49b2",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mazurscy/static/js/2.e7526ef6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dc73ad0eb157db7f328c",
-    "url": "/mazurscy/static/js/main.1c5fa540.chunk.js"
+    "revision": "f220a8a21acb4fbc723a",
+    "url": "/mazurscy/static/js/main.f4cfa649.chunk.js"
   },
   {
     "revision": "01711683c7efc1f6f5bc",
