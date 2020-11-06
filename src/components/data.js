@@ -153,8 +153,8 @@ const quiz = [
 
 const start = {
     date: "Premiera: 25 listopada 2020 r.",
-    inv: `Czy masz ochotę na kolejną przygodę z rodziną Mazurskich? To świetnie! Zapraszamy Cię do podróży. Czy chcesz jako pierwszy dowiedzieć się co spotka Was po drodze?
-    Odpowiedz na pytania i odkryj pierwszy rozdział najnowszego tomu „Mazurskich w podróży”`,
+    inv: `Czy masz ochotę na kolejną przygodę z rodziną Mazurskich? To świetnie! Zapraszamy Cię do podróży. Czy chcesz jako pierwszy dowiedzieć się, co spotka Was po drodze?
+    Odpowiedz na pytania i odkryj pierwszy rozdział najnowszego tomu „Mazurskich w podróży”.`,
     btn: "Gotowy? do dzieła!"
 }
 
