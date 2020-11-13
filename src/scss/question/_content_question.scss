@@ -50,9 +50,6 @@ ul.quiz-buttons {
     transition: .5s;
     animation: newbutt .7s ease-in forwards;
     cursor: pointer;
-    &:hover {
-        background-color: #49155C;
-    }
 }
 
 .book-logo {

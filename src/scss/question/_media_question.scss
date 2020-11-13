@@ -33,6 +33,9 @@
     .quiz-btn {
         margin-left: 8vw;
         font-size: 17px;
+        &:hover {
+            background-color: #49155C;
+        }
     }
     .quiz-buttons {
         height: 35vh;

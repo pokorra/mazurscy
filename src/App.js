@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import { HashRouter,  Route, Switch} from 'react-router-dom';
-// import './scss/main.scss';
 import Home from './components/Home';
 import Quiz from './components/Quiz';
 import Final from './components/Final';
@@ -14,7 +13,6 @@ function App() {
   const [isFinished, setFinished] = useState(false);
 
   return (
-    // <div className="App">
       <HashRouter>
         <Switch>
           <Route exact path ='/' component={Home} />
@@ -23,7 +21,6 @@ function App() {
           <Route component={NotFound} />
         </Switch>
       </HashRouter>
-    // </div>
   );
 }
 
