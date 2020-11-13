@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5038b9c96f2a236e4574bedf01562828",
+    "revision": "4ae60083e27d222d71ed9d907b2d26d3",
     "url": "/mazurscy/index.html"
   },
   {
-    "revision": "f220a8a21acb4fbc723a",
-    "url": "/mazurscy/static/css/main.953dfc54.chunk.css"
+    "revision": "11f2265a93e7476cf2e3",
+    "url": "/mazurscy/static/css/main.12074811.chunk.css"
   },
   {
     "revision": "9b959dbbb4845ecb49b2",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mazurscy/static/js/2.e7526ef6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f220a8a21acb4fbc723a",
-    "url": "/mazurscy/static/js/main.f4cfa649.chunk.js"
+    "revision": "11f2265a93e7476cf2e3",
+    "url": "/mazurscy/static/js/main.172cbaea.chunk.js"
   },
   {
     "revision": "01711683c7efc1f6f5bc",
@@ -68,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mazurscy/static/media/ftl_pic_m.734c5fce.png"
   },
   {
-    "revision": "85e798e887005b3aa867082f656e3aea",
-    "url": "/mazurscy/static/media/ftl_pic_s.85e798e8.png"
+    "revision": "5f48e7a11c146bf5d4356b42a5bd8330",
+    "url": "/mazurscy/static/media/ftl_pic_s.5f48e7a1.png"
   },
   {
     "revision": "e1fce1fe320da8cddd846995b7baeb77",
